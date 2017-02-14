@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FaceSpace-SwingUI" />
         <module name="JavaSwingTutorial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaSwingTutorial" target="1.8" />
+      <module name="FaceSpace-SwingUI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
