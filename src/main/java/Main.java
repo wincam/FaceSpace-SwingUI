@@ -5,9 +5,16 @@ public class Main {
         // Creates a UI thread that will launch our AppContainer JFrame
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
+                new AccountCreation();
+            }
+        });
+
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
                 new AppContainer();
             }
         });
+
     }
 }
 

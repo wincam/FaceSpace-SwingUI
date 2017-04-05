@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="FaceSpace-SwingUI" target="1.8" />
+      <module name="FaceSpace-SwingUI" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

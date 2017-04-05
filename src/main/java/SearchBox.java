@@ -13,7 +13,7 @@ public class SearchBox extends JPanel {
     private JTextField textEntry;
     private JButton submitButton;
 
-    public SearchBox(Callback callback){
+    public SearchBox(final Callback callback){
         // Initialize this component
         super();
         this.setLayout(new FlowLayout());
